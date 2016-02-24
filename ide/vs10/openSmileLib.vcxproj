@@ -73,7 +73,7 @@
     <Import Project="generalPropsDll.props" />
     <Import Project="openSmileComponents.props" />
     <Import Project="portaudio.props" />
-    <Import Project="gnuGpl.props" />
+    <Import Project="lstmRnn.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleasePortAudioOpenCV|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -82,7 +82,7 @@
     <Import Project="generalPropsDll.props" />
     <Import Project="openSmileComponents.props" />
     <Import Project="portaudio.props" />
-    <Import Project="gnuGpl.props" />
+    <Import Project="lstmRnn.props" />
     <Import Project="opencv.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugPortaudio|Win32'" Label="PropertySheets">
@@ -92,7 +92,7 @@
     <Import Project="generalPropsDll.props" />
     <Import Project="openSmileComponents.props" />
     <Import Project="portaudio.props" />
-    <Import Project="gnuGpl.props" />
+    <Import Project="lstmRnn.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugPortaudioOpenCV|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -101,7 +101,7 @@
     <Import Project="generalPropsDll.props" />
     <Import Project="openSmileComponents.props" />
     <Import Project="portaudio.props" />
-    <Import Project="gnuGpl.props" />
+    <Import Project="lstmRnn.props" />
     <Import Project="opencv.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
@@ -110,7 +110,7 @@
     <Import Project="generalPropsRelease.props" />
     <Import Project="generalPropsDll.props" />
     <Import Project="openSmileComponents.props" />
-    <Import Project="gnuGpl.props" />
+    <Import Project="lstmRnn.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseOpenCV|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -118,7 +118,7 @@
     <Import Project="generalPropsRelease.props" />
     <Import Project="generalPropsDll.props" />
     <Import Project="openSmileComponents.props" />
-    <Import Project="gnuGpl.props" />
+    <Import Project="lstmRnn.props" />
     <Import Project="opencv.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
@@ -127,7 +127,7 @@
     <Import Project="generalPropsDebug.props" />
     <Import Project="generalPropsDll.props" />
     <Import Project="openSmileComponents.props" />
-    <Import Project="gnuGpl.props" />
+    <Import Project="lstmRnn.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugOpenCV|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -135,7 +135,7 @@
     <Import Project="generalPropsDebug.props" />
     <Import Project="generalPropsDll.props" />
     <Import Project="openSmileComponents.props" />
-    <Import Project="gnuGpl.props" />
+    <Import Project="lstmRnn.props" />
     <Import Project="opencv.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
